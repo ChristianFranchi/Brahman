@@ -175,7 +175,7 @@ The main new results are Theorems 3, 4, and 6. Theorem 4 advances the Fishburn�
 
 ---
 
-**LICENSE NOTICE** — This work is shared under CC BY-NC-ND 4.0. Permissions: finance@ACTiVEgroup.it
+**LICENSE NOTICE** — CC BY-NC-ND 4.0 — [LinkedIn](https://www.linkedin.com/in/christian-franchi-bab00ab4/)
 
 ## References
 
