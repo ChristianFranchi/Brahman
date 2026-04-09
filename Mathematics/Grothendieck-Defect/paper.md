@@ -5,8 +5,7 @@
 ORCID: [0009-0001-8974-4991](https://orcid.org/0009-0001-8974-4991)
 LinkedIn: [christian-franchi](https://www.linkedin.com/in/christian-franchi-bab00ab4/)
 
-© 2026 Christian Franchi Viceré. All Rights Reserved.
-CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/
+© 2026 Christian Franchi Viceré — CC BY-NC-ND 4.0
 
 April 2026
 
