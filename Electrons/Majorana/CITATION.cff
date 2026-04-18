@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+title: "Majorana Was Right: The Neutrino's Double Identity, 89 Years Later — A Categorical Theorem: CPT Invariance, ABS Classification, Bott Periodicity mod 8, and Galois Descent Force psi = psi^c"
+authors:
+  - family-names: "Franchi Viceré"
+    given-names: "Christian"
+    orcid: "https://orcid.org/0009-0001-8974-4991"
+    affiliation: "A.I. Visions LTD"
+version: "6.1"
+date-released: 2026-04-18
+doi: 10.5281/zenodo.19644594
+url: "https://doi.org/10.5281/zenodo.19644594"
+repository-code: "https://github.com/ChristianFranchi/Brahman/tree/main/Electrons/Majorana"
+license: CC-BY-NC-ND-4.0
+type: article
+abstract: >
+  Any neutral spin-1/2 fermion on a 4D Lorentzian spin manifold (M, g) with
+  w_2(M) = 0, admitting a CPT-stable vacuum sector and carrying no unbroken
+  gauge U(1) charge, must be a Majorana fermion. The Dirac alternative is
+  algebraically excluded. The proof rests on (i) the CPT theorem
+  (Jost-Streater-Wightman), (ii) the Atiyah-Bott-Shapiro classification
+  of real Clifford modules identifying Cl_{3,1}(R) = M_4(R), (iii) Bott
+  periodicity mod 8 with KO-dimension indexing, (iv) Galois descent for
+  Spin(3,1)-bundles. Seesaw mass M_R != 0 is forced; leptogenesis becomes
+  algebraic necessity with floor M_R >= 10^9 GeV (thermal) or >= TeV
+  (resonant). By 2033 CUPID + LEGEND-1000 + nEXO will cover the IO band.
+  Genuinely falsifiable within a decade.
+keywords:
+  - Majorana neutrinos
+  - CPT theorem
+  - Clifford modules
+  - Atiyah-Bott-Shapiro classification
+  - Bott periodicity
+  - real structure
+  - KO-dimension
+  - Galois descent
+  - neutrinoless double beta decay
+  - seesaw mechanism
+  - leptogenesis
+  - Doplicher-Haag-Roberts
+  - spin geometry
+  - mathematical physics
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19644594
+    description: "Zenodo DOI for version 6.1"
