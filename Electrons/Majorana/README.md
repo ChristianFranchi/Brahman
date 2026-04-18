@@ -1,13 +1,19 @@
 # Majorana Neutrino Research
 
-This folder contains materials and research related to Majorana neutrinos and related theoretical physics work.
+This subfolder contains materials and research specifically related to Majorana neutrinos.
 
 ## Contents
 
 This directory will house:
-- Research papers
-- Mathematical derivations
+- Research papers on Majorana fermions
+- Mathematical derivations and proofs
 - Theoretical frameworks
 - Computational models
+- Experimental correlations
+
+## Publications
+
+- Majorana neutrino theorem papers
+- Related theoretical physics work
 
 Created: April 2026
