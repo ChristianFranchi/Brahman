@@ -1,32 +1,53 @@
 # Dark Energy as Extrinsic Curvature of the Bloch Sphere
 
-**Companion repository for the Dark Energy v9.1.6 paper.**
+**Companion repository for the Dark Energy v9.1.7 paper.**
+
+## 🌐 Published on Zenodo (immutable DOI + Bitcoin-chain priority)
+
+[![DOI](https://zenodo.org/badge/doi/10.5281%2Fzenodo.20102393.svg)](https://doi.org/10.5281/zenodo.20102393)
+
+| | |
+|---|---|
+| **Version DOI** | [10.5281/zenodo.20102393](https://doi.org/10.5281/zenodo.20102393) |
+| **Concept DOI** (versionless) | [10.5281/zenodo.20102392](https://doi.org/10.5281/zenodo.20102392) |
+| **Record** | <https://zenodo.org/records/20102393> |
+| **Blockchain proof of priority** | OpenTimestamps Bitcoin-chain stamp (`v9.1.7.pdf.ots`) |
+| **License** | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
 
 ## Paper
 
-**Title:** Dark Energy Is Einstein's Relativistic Curvature of Quantum Void Generating Antigravity, Specularly as Curvature of Spacetime Generates Gravity (109 Years Later)
+**Title:** Dark Energy Is Einstein's Relativistic Curvature of Quantum Void: A Geometric Theorem on the Extrinsic Fubini–Study Curvature of the Bloch Sphere with Λ = 3H²/c² via Gauss–Codazzi K = 4
 
 **Author:** [Christian Franchi Viceré](https://orcid.org/0009-0001-8974-4991)
-**Date:** 2026-05-09
-**License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-**Status:** v9.1.6 ARMOR-FINAL — production-ready, kernel-attested
+**Affiliation:** A.I. Visions LTD, London (UK)
+**Date:** 2026-05-10
+**Status:** v9.1.7 — Zenodo-published, OpenTimestamps-stamped, kernel-attested
 
 ## Core Thesis
 
-$$\Lambda g_{\mu\nu} = K_{\rm ext}$$
+$$\Lambda g_{\mu
+u} = K_{m ext}$$
 
 The cosmological constant is the **extrinsic Fubini–Study curvature** of the Bloch sphere $S^2 = \mathbb{P}^1(\mathbb{C}) \hookrightarrow \mathrm{Herm}_2(\mathbb{C}) \cong \mathbb{R}^{3,1}$. Via the Shiromizu–Maeda–Sasaki reduction with $K = 4$:
 
-$$\Lambda = \frac{3 H^2}{c^2} \qquad \text{(epoch-agnostic; }\Omega_\Lambda \to 1 \text{ as }t\to\infty\text{)}$$
+$$\Lambda = rac{3 H^2}{c^2} \qquad 	ext{(epoch-agnostic; }\Omega_\Lambda 	o 1 	ext{ as }t	o\infty	ext{)}$$
 
-## Files
+## Files (v9.1.7 — current release)
 
 | File | Description | Verification |
 |------|-------------|---|
-| **`v9.1.6.pdf`** | Paper PDF (20 pages, xelatex+pandoc) | SHA256: `40012be8...` |
-| **`v9.1.6.md`** | Paper source markdown (537 lines) | SHA256: `04ea70a0...` |
-| **`DarkEnergy_v916_Cert.lean`** | Lean 4 kernel certificate | ✅ exit 0, **zero hidden axioms** |
-| **`DarkEnergy_v916_Numerical.wl`** | Mathematica numerical cert | ✅ exit 0, all numerics attested |
+| **`v9.1.7.pdf`** | Paper PDF (pandoc 3.9 + tectonic 0.16.9; xurl + sloppy + emergencystretch=5em hardening) | SHA-256: `ec269ec88a761b2a916a0f4bdd5730c89e24acf0aa490386ea4e23072760b1dd` |
+| **`v9.1.7.md`** | Paper source markdown | SHA-256: `2ab9d72ee0904809030b3353c24fa3b7cc919a3564207a71d2f6d45f52c0411e` |
+| **`v9.1.7.pdf.ots`** | OpenTimestamps Bitcoin-chain proof-of-priority (4 calendars submitted; run `ots upgrade` after ≈6h for chain proof) | SHA-256: `0b051d39668c6ff8e2e1b912f4fe2dbe39f3547ab47cdf0227871747b22d2198` |
+| **`DarkEnergy_v916_Cert.lean`** | Lean 4 kernel certificate (carried forward; v9.1.7 = surgical patches only) | ✅ exit 0, **zero hidden axioms** |
+| **`DarkEnergy_v916_Numerical.wl`** | Mathematica numerical certificate (carried forward) | ✅ exit 0, all numerics attested |
+
+## Release history
+
+| Version | Date | PDF SHA-256 (truncated) | DOI | Notes |
+|---|---|---|---|---|
+| v9.1.6 | 2026-05-09 | `40012be8ffa869...` (superseded) | — | ARMOR-FINAL R32–R44; container xelatex |
+| **v9.1.7** | **2026-05-10** | **`ec269ec88a761b...`** | **[10.5281/zenodo.20102393](https://doi.org/10.5281/zenodo.20102393)** | Patches P1–P4 (title footer, companion repo URL, repro block, version bump, H3→bold para); LaTeX hardening (xurl/sloppy); 76 References blank-line gaps via Python regex; OTS blockchain stamp; Zenodo published |
 
 ## Kernel Attestations
 
@@ -39,8 +60,8 @@ EXIT=0
 
 | Theorem | Statement | Status |
 |---|---|:---:|
-| `sigma_involution` | $\forall c, \sigma(\sigma c) = c$ | ✅ |
-| `kist_duality` | $\forall c, \mathrm{ogg}(c) + \mathrm{sogg}(c) = 5$ | ✅ |
+| `sigma_involution` | $orall c, \sigma(\sigma c) = c$ | ✅ |
+| `kist_duality` | $orall c, \mathrm{ogg}(c) + \mathrm{sogg}(c) = 5$ | ✅ |
 | `falsifier_partition` | $3 + 4 + 1 = 8$ | ✅ |
 | `falsifier_audit_consistency` | $8 + 7 = 15$ | ✅ |
 | `tally_27` | $10 + 12 + 5 + 0 = 27$ | ✅ |
@@ -54,16 +75,16 @@ EXIT=0
 | Test | Result |
 |---|---|
 | $\sigma^2 = \mathrm{id}$ involution | True |
-| $\mathrm{ogg} + \mathrm{sogg} = 5$ $\forall$ cell | True |
+| $\mathrm{ogg} + \mathrm{sogg} = 5$ $orall$ cell | True |
 | Species universality $\sum_s c_s = 0$ | True |
 | Vassilevich $a_2(S^2) = 1/3$ (analytical) | True |
-| **R43**: $\zeta_{T^2}(2) \approx 6.026$ vs $(\zeta_{S^1}(2))^2 \approx 4.686$ | $\Delta = 22.24\%$ ✅ |
-| **R14**: HK factorization $\|\Delta\| < 10^{-10}$ at $t \in \{0.001, 0.01, 0.1\}$ | $2.57 \times 10^{-10}$ worst ✅ |
+| **R43**: $\zeta_{T^2}(2) pprox 6.026$ vs $(\zeta_{S^1}(2))^2 pprox 4.686$ | $\Delta = 22.24\%$ ✅ |
+| **R14**: HK factorization $\|\Delta\| < 10^{-10}$ at $t \in \{0.001, 0.01, 0.1\}$ | $2.57 	imes 10^{-10}$ worst ✅ |
 | Falsifier partition $3 + 4 + 1 = 8$ | True |
 | Tally $10 + 12 + 5 + 0 = 27$ | True |
 | Bloch $r^2 \cdot 4 = 1$ ($r = 1/2$) | True |
 
-## Honest Tally (v9.1.6, Q1=27 confirmed)
+## Honest Tally (v9.1.7, carried forward from v9.1.6 — Q1=27 confirmed)
 
 | Tier | Count | % |
 |---|:---:|---:|
@@ -79,7 +100,7 @@ EXIT=0
 **Category I — Mathematical (3, precluded by theorem):**
 - $K_7$ — T4 Wigner–Inönü minimality precluded
 - $K_8$ — Bloch non-functoriality precluded
-- $K_{\rm HK\text{-}fact}$ — Heat-kernel factorization precluded by Reed–Simon §VIII.33
+- $K_{m HK	ext{-}fact}$ — Heat-kernel factorization precluded by Reed–Simon §VIII.33
 
 **Category II — ΛCDM-shared (4):**
 - $K_C$ — DESI DR3 (2027) cosmological constant test
@@ -90,16 +111,19 @@ EXIT=0
 **Category III — Differential Empirical Test (1):**
 - $K_{w_0 w_a}$ — DESI DR3 (2027) sharp test: $|w_a| < 0.1$ at $z < 0.5$ within $> 5\sigma$
 
-## ARMOR Audit Trail
+## ARMOR Audit Trail (R32–R44, v9.1.6) + Surgical Patches (P1–P4, v9.1.7)
 
-The paper underwent surgical refinement R32–R44:
+The paper underwent surgical refinement:
+
+**v9.1.6 (R32–R44):**
 - **R32**: Joung–Mourad–Parentani arXiv corrected `0706.1741` (fabricated) → `hep-th/0606119` (LIVE-verified)
 - **R33**: Bytsenko `hep-th/0011252` (non-existent) → `hep-th/9505061` BCVZ Phys. Rep. 266:1 (1996)
 - **R34**: Cline–Hoyle–Burgess `hep-th/0306154` removed → Israel 1966 *Nuovo Cimento B* **44**, 1 junction conditions
 - **R35**: Anselmi 1993 scope-honest (gravitational divergences generic, NOT specifically Λ)
 - **R36**: $T_D$ renamed "two independent derivations" (operator-factorization claim withdrawn)
-- **R37**: $T_H$ demoted to observation (sheaf incompatibility; $H^1_{\rm discrete} = 0$ trivially)
-- **R38**: $T_5$ explicit 3-step chain $\Lambda g_{\mu\nu} = K_{\rm ext}$ via GC + T7 + SMS Friedmann
+- **R37**: $T_H$ demoted to observation (sheaf incompatibility; $H^1_{m discrete} = 0$ trivially)
+- **R38**: $T_5$ explicit 3-step chain $\Lambda g_{\mu
+u} = K_{m ext}$ via GC + T7 + SMS Friedmann
 - **R39**: $T_7$ outline status acknowledged (steps 4-5 require AQFT companion paper)
 - **R40**: Gibbons–Hawking 1977 alphabetical ordering (not Hawking–Gibbons)
 - **R41**: $T_4$ closure with 9 textbook references (Knapp + Bourbaki + Borel + Montgomery–Samelson + Helgason + Lawson–Michelsohn + Milnor–Stasheff + Besse + Schur)
@@ -107,25 +131,40 @@ The paper underwent surgical refinement R32–R44:
 - **R43**: T² SymPy concrete numerics (6.026 vs 4.686, Δ = 22.24%)
 - **R44**: Version label v9.1.6 throughout
 
+**v9.1.7 (P1–P4, surgical):**
+- **P1**: Title footer + Companion repo URL line
+- **P2**: Pre-§References "Reproducibility & Companion Repository" block + repro commands
+- **P3**: Version bump v9.1.6 → v9.1.7 (×6 global)
+- **P4**: H3 subtitle → bold paragraph (LaTeX-fragile workaround)
+- **L1**: LaTeX hardening (xurl + sloppy + emergencystretch=5em + tolerance=2000) eliminated 2 Overfull\hbox warnings
+- **L2**: Subscript fix `_\mathbb{X}` → `_{\mathbb{X}}` via Perl regex (3 sites)
+- **L3**: 76 blank-line gaps injected in References section (Python regex)
+- **L4**: OpenTimestamps Bitcoin-chain stamp on PDF
+- **L5**: Zenodo deposition with rich metadata (title + 41 keywords + 14 references + method + 3 related identifiers)
+
 ## Citation
 
 ```bibtex
 @misc{FranchiVicere2026DarkEnergy,
   author       = {Franchi Vicer{\'e}, Christian},
-  title        = {Dark Energy Is Einstein's Relativistic Curvature of Quantum Void
-                  Generating Antigravity},
-  year         = 2026,
-  month        = may,
-  version      = {v9.1.6 ARMOR-FINAL},
-  howpublished = {GitHub},
-  url          = {https://github.com/ChristianFranchi/Brahman/tree/main/Electrons/Dark_Energy},
-  note         = {Lean 4 + Mathematica kernel-verified, zero hidden axioms}
+  title        = {Dark Energy Is {Einstein}'s Relativistic Curvature of Quantum Void:
+                  A Geometric Theorem on the Extrinsic {Fubini--Study} Curvature
+                  of the {Bloch} Sphere with $\Lambda = 3H^2/c^2$ via {Gauss--Codazzi} $K = 4$},
+  year         = {2026},
+  month        = {may},
+  version      = {v9.1.7},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.20102393},
+  url          = {https://doi.org/10.5281/zenodo.20102393},
+  note         = {Lean 4 + Mathematica kernel-verified, zero hidden axioms;
+                  OpenTimestamps Bitcoin-chain proof of priority;
+                  companion repository: \url{https://github.com/ChristianFranchi/Brahman/tree/main/Electrons/Dark_Energy}}
 }
 ```
 
 ## Reproducing the Verification
 
-### Lean
+### Lean 4
 
 ```bash
 lean DarkEnergy_v916_Cert.lean
@@ -137,6 +176,16 @@ lean DarkEnergy_v916_Cert.lean
 ```bash
 wolframscript -file DarkEnergy_v916_Numerical.wl
 # Expected: 8 tests all 'True', exit 0
+```
+
+### PDF rebuild
+
+```bash
+pandoc v9.1.7.md -o v9.1.7.pdf --pdf-engine=tectonic \
+  --metadata-file=u137_meta.yaml \
+  -V mainfont=Helvetica -V monofont=Menlo \
+  -V colorlinks=true -V linkcolor=blue -V urlcolor=blue
+# Expected SHA-256: ec269ec88a761b2a916a0f4bdd5730c89e24acf0aa490386ea4e23072760b1dd
 ```
 
 ## Contact
