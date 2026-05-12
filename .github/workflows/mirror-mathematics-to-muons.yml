@@ -1,0 +1,36 @@
+name: Mirror Mathematics → Muons
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Mathematics/**'
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Mirror Mathematics → Muons
+        run: |
+          mkdir -p Muons
+          rsync -av --delete Mathematics/ Muons/
+
+      - name: Commit and push mirror
+        run: |
+          git config user.name "mirror-bot"
+          git config user.email "mirror-bot@users.noreply.github.com"
+          git add -A Muons/
+          if git diff --staged --quiet; then
+            echo "No changes to mirror"
+            exit 0
+          fi
+          git commit -m "auto-mirror: Mathematics → Muons"
+          git push

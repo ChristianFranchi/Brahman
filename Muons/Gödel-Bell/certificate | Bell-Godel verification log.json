@@ -1,0 +1,90 @@
+{
+  "certificate_metadata": {
+    "paper": "paper | Bell-Godel Categorical Identity as Theorem.md",
+    "author": "Christian Franchi Viceré",
+    "orcid": "0009-0001-8974-4991",
+    "linkedin": "https://www.linkedin.com/in/christian-franchi-bab00ab4/",
+    "date": "2026-05-11",
+    "time_executed": "09:38 CEST",
+    "license": "CC BY-NC-ND 4.0",
+    "companion_repo": "https://github.com/phanes19122025-cmyk/temp/papers/bell-godel-categorical-identity"
+  },
+  "execution_environment": {
+    "verifier": "Lean 4 kernel",
+    "toolchain": "lean4 (stable)",
+    "mathlib": "not imported",
+    "import_strategy": "pure core Lean 4 — minimal axioms encoded inline",
+    "bridge": "IoT.ACTiVEgroup.it Lean backend",
+    "endpoint": "https://mac-mini-m4.tail4e134d.ts.net/lean/call",
+    "auth_scheme": "X-AI-Auth = HMAC-SHA256(SEED, nonce || time_slot)"
+  },
+  "execution_result": {
+    "exit_code": 0,
+    "duration_ms": 5988,
+    "timed_out": false,
+    "stderr": "",
+    "stdout_summary": "All four declarations type-checked and elaborated by the kernel."
+  },
+  "verified_declarations": [
+    {
+      "name": "heyting_neg_no_fixed_point",
+      "paper_reference": "Lemma 3.1",
+      "type": "∀ {H : Type} (HA : HeytingAlg H) (x : H), HA.himp x HA.bot ≠ x",
+      "natural_language": "In any non-trivial Heyting algebra, Heyting negation has no fixed point.",
+      "status": "⊢",
+      "uses_sorry": false,
+      "uses_axiom_beyond_core": false
+    },
+    {
+      "name": "lawvere_set",
+      "paper_reference": "Lemma 3.2 (Set instance)",
+      "type": "∀ {A B : Type} (φ : A → A → B) (f : B → B), (∀ h : A → B, ∃ a₀, h = φ a₀) → ∃ b : B, f b = b",
+      "natural_language": "Lawvere's fixed-point theorem in Set: every endomorphism on the codomain has a fixed point when a weakly point-surjective evaluation exists.",
+      "status": "⊢",
+      "uses_sorry": false,
+      "uses_axiom_beyond_core": false
+    },
+    {
+      "name": "lawvere_no_wps",
+      "paper_reference": "Corollary 3.3 (Lawvere contrapositive)",
+      "type": "∀ {A B : Type} (f : B → B) (hf : ∀ b, f b ≠ b), ¬ ∃ φ : A → A → B, ∀ h : A → B, ∃ a₀, h = φ a₀",
+      "natural_language": "If f has no fixed point then no weakly point-surjective φ exists.",
+      "status": "⊢",
+      "uses_sorry": false,
+      "uses_axiom_beyond_core": false
+    },
+    {
+      "name": "universal_lawvere_obstruction_set",
+      "paper_reference": "Theorem 4.1 (a) — Set instance",
+      "type": "∀ {A H : Type} (HA : HeytingAlg H), ¬ ∃ φ : A → A → H, ∀ h : A → H, ∃ a₀, h = φ a₀",
+      "natural_language": "The Universal Lawvere Obstruction holds in the Set instance: for any non-trivial Heyting algebra H and any type A, no weakly point-surjective evaluation A → A → H exists.",
+      "status": "⊢",
+      "uses_sorry": false,
+      "uses_axiom_beyond_core": false
+    }
+  ],
+  "what_this_certificate_proves": {
+    "scope": "Set-theoretic instance of Theorem 4.1 part (a)",
+    "covered_by_certificate": [
+      "Lemma 3.1 (Heyting ¬ no FP)",
+      "Lemma 3.2 (Lawvere in Set)",
+      "Corollary 3.3 (Lawvere contrapositive)",
+      "Theorem 4.1 part (a) restricted to Set"
+    ],
+    "not_covered_by_this_certificate": [
+      "Theorem 4.1 parts (b)-(e) in the Bohr topos and arithmetic topos — these require Mathlib4 Topos modules which were not imported (kernel OOM budget) and remain as deductive specializazioni dello Set instance via standard CCC enrichment.",
+      "Pathway γ (Heunen–Reyes frame embedding) — dipends on locale theory, separate certificate planned."
+    ]
+  },
+  "reproducibility": {
+    "lean_file": "certificate | Bell-Godel Lean4 verification.lean",
+    "reproduction_steps": [
+      "1. Install Lean 4 (any recent stable release).",
+      "2. Save the .lean file to any working directory.",
+      "3. Run: lean certificate\\ \\|\\ Bell-Godel\\ Lean4\\ verification.lean",
+      "4. Expect exit code 0 and four #check outputs printing the declaration types."
+    ],
+    "bridge_protocol_documentation": "See companion repository /docs/iot-bridge.md for the HMAC-SHA256 authentication scheme used to invoke the remote Lean kernel."
+  },
+  "ip_protection_notice": "This certificate exposes only standard mathematical primitives (Heyting algebras, cartesian closed Set, Lawvere 1969). No 𝒰₁₃₇-internal vocabulary (KIST, σ-involution, 8-functor, AntiD, Hurwitz ladder, StellaOct, 𝔎^Stella) is exposed. The certificate is publishable as-is with the paper."
+}
