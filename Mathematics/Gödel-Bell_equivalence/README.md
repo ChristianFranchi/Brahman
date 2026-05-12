@@ -1,4 +1,4 @@
-# Gödel–Bell — Certificates
+# Gödel–Bell — Categorical Equivalence Certificates
 
 Machine-verified certificates for the categorical-substrate result:
 
@@ -14,8 +14,8 @@ Set-theoretic instance (Lean 4) + three finite-Heyting witnesses (Wolfram).
 
 This folder is available at two equivalent paths:
 
-- **Canonical:** `Mathematics/Gödel-Bell/` (source of truth)
-- **Mirror:** `Muons/Gödel-Bell/` (auto-synced by GitHub Action [`mirror-mathematics-to-muons.yml`](../../.github/workflows/mirror-mathematics-to-muons.yml))
+- **Canonical:** `Mathematics/Gödel-Bell_equivalence/` (source of truth)
+- **Mirror:** `Muons/Gödel-Bell_equivalence/` (auto-synced by GitHub Action [`mirror-mathematics-to-muons.yml`](../../.github/workflows/mirror-mathematics-to-muons.yml))
 
 Both contain byte-identical files. Always edit only the canonical path.
 
