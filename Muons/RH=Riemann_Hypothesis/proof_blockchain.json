@@ -1,0 +1,18 @@
+{
+  "file": "169_HR_RH_v6.5.pdf",
+  "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+  "chain": "Bitcoin",
+  "protocol": "OpenTimestamps",
+  "ots_file": "169_HR_RH_v6.5.pdf.ots",
+  "calendars": [
+    "alice.btc.calendar.opentimestamps.org",
+    "bob.btc.calendar.opentimestamps.org",
+    "finney.calendar.eternitywall.com",
+    "btc.calendar.catallaxy.com"
+  ],
+  "stamped_utc": "2026-04-12T22:37:00Z",
+  "zenodo_doi": "10.5281/zenodo.19546495",
+  "status": "pending",
+  "author": "Christian Franchi Vicer\u00e9",
+  "orcid": "0009-0001-8974-4991"
+}
