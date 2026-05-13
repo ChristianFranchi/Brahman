@@ -1,0 +1,90 @@
+name: OTS Protect — Bitcoin Timestamping Pipeline
+
+# Runs every 6h to:
+#  1. Scan repo for paper-class files lacking .ots stamps → stamp them (retroactive support)
+#  2. Upgrade existing .ots stamps (Bitcoin block confirmation, typically 1-6 hours after stamp)
+#  3. Verify all .ots and produce STATUS_OTS.md report
+#  4. Commit any changes (new .ots, upgraded .ots, status report)
+#
+# Manual trigger: Actions tab → "OTS Protect" → Run workflow.
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'    # 6-hour cycle, offset 17 min to avoid GH peak load
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.pdf'
+      - '**/*.lean'
+      - '**/*.wl'
+      - '**/paper*.md'
+      - '**/certificate*.md'
+      - '**/literature*.md'
+      - '**/run.json'
+      - '**/MASTER_CERTIFICATE.json'
+      - '**/*finite_witness*.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ots-protect
+  cancel-in-progress: false
+
+jobs:
+  ots-protect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install opentimestamps-client
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install opentimestamps-client
+          which ots
+          ots --version
+
+      - name: Stamp + Upgrade + Verify
+        id: ots
+        run: |
+          bash .github/scripts/ots-protect.sh
+
+      - name: Render STATUS_OTS.md
+        run: |
+          python .github/scripts/ots-verify.py
+
+      - name: Commit changes
+        env:
+          BOT_NAME: ots-protect-bot
+          BOT_EMAIL: ots-bot@aivisions.ltd
+        run: |
+          git config user.name "$BOT_NAME"
+          git config user.email "$BOT_EMAIL"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            CHANGED=$(git diff --cached --name-only | wc -l)
+            git commit -m "ots-protect: $CHANGED file(s) updated ($(date -u +%FT%TZ))"
+            git push
+            echo "Committed and pushed $CHANGED file(s)."
+          fi
+
+      - name: Upload artefact (status JSON)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ots-status-${{ github.run_id }}
+          path: |
+            STATUS_OTS.md
+            .github/ots_status.json
+          if-no-files-found: ignore
