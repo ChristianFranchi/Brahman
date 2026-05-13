@@ -1,0 +1,281 @@
+{
+  "generated_at_utc": "2026-05-13T23:40:11Z",
+  "total_ots_files": 27,
+  "bitcoin_verified": 0,
+  "pending_bitcoin_confirmation": 23,
+  "calendar_receipt_only": 0,
+  "orphan_no_source": 1,
+  "verify_failed": 3,
+  "records": [
+    {
+      "ots_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean.ots",
+      "source_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "23fa9b745b575934003c24cbac3299b5d7370069c16b22f5b0b6c1930d9e5d65",
+      "src_sha256": "bbc597708acd9eceb34ae4f0d4f8412b7daad8d78e7868d34a2c59820efa0527",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl.ots",
+      "source_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "cddb9a38196511e7642667a01e9f04c08c9d3dad4214c9a8ecb6f774b148ee8d",
+      "src_sha256": "014c43dd07a30c4f49bb6986c187d8124f3b7e1f3096134d96c854775c7866be",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Electrons/Dark_Energy/v9.1.7.pdf.ots",
+      "source_file": "./Electrons/Dark_Energy/v9.1.7.pdf",
+      "source_exists": true,
+      "ots_size": 3810,
+      "ots_sha256": "5554cde3fcc151849358bf42679e99e8f3db07cf5e26c128db7ca29d1ee7e6bf",
+      "src_sha256": "ec269ec88a761b2a916a0f4bdd5730c89e24acf0aa490386ea4e23072760b1dd",
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/v9.1.7.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+    },
+    {
+      "ots_file": "./Electrons/Majorana/majorana_v6.1-FINAL.pdf.ots",
+      "source_file": "./Electrons/Majorana/majorana_v6.1-FINAL.pdf",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "6c2a95b1d3deec71d9e888812be8af629cdff99102fdb45d299fa42f09abd32e",
+      "src_sha256": "94f539c49b4e903573582bb86a2ec11f880e70e4e72ddaa85788967efbe2a310",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Electrons/Majorana/majorana_v6.1-FINAL.pdf'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Electrons/Majorana/majorana_v6_1-FINAL.pdf.ots",
+      "source_file": "./Electrons/Majorana/majorana_v6_1-FINAL.pdf",
+      "source_exists": false,
+      "ots_size": 3880,
+      "ots_sha256": "62b38c62aeab7a679f69ad70a37844a2de8a151ab5178c456be6adb85e6811e0",
+      "src_sha256": null,
+      "status": "orphan_no_source",
+      "verify_output": ""
+    },
+    {
+      "ots_file": "./Mathematics/Grothendieck-Defect/paper.md.ots",
+      "source_file": "./Mathematics/Grothendieck-Defect/paper.md",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "01b7c6f2ac9b66d16f644b03ea7c33f406e06f0710bef97f46da5cb4c1a0e350",
+      "src_sha256": "e93f70926aff971b71b7dd6cc57370754f79572186ce198df8e7023d520e79a9",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Mathematics/Grothendieck-Defect/paper.pdf.ots",
+      "source_file": "./Mathematics/Grothendieck-Defect/paper.pdf",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "932cb818b4b422d4cec29af55a162bbd2f6cddd659b9efe6c2b35fcb08eaa68c",
+      "src_sha256": "821d860519f712fda4842e2863493c45708881ec8061bddaadb380819e4b6990",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.pdf'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean.ots",
+      "source_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "61030461de894003d76bd6d8aa8b893d7a1cb2d06fd2bbf63aef5cfbe5b4ce7e",
+      "src_sha256": "454f6d6be22e12ec0d9e4fdfff8c82cffde424a0aec9a2f79bcc37c47ae93262",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl.ots",
+      "source_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "e3c0a6efceda877a7bf338d678b42d9f8850ba69ab7486ec38fd28bf31af11fe",
+      "src_sha256": "dc368869991d6861efcbce008602905aebeda230e084b62fb59746c69735469a",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf.ots",
+      "source_file": "./Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf",
+      "source_exists": true,
+      "ots_size": 4987,
+      "ots_sha256": "b76695ad87eec7b4bb346ac1ef4f88429f0c77fbb6379ed42572dde92cf51e9e",
+      "src_sha256": "3dba135a902d05285f01eea2c7789ed5d843d0ab19aff4e6ad29d20ffd18cf4d",
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf'\nFile does not match original!"
+    },
+    {
+      "ots_file": "./Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl.ots",
+      "source_file": "./Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "2aeb67f1b26ad6c3f8f808fed8b86aceb185ceb1668a20b69ab00022897a54b6",
+      "src_sha256": "ffc89d9e53cc019b2c86e02abf4e2fe34bff4467381dc9e229c8c5c9832a06db",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Grothendieck-Defect/paper.md.ots",
+      "source_file": "./Muons/Grothendieck-Defect/paper.md",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "7dae29b1739bcf59b774aec2465f97b410c9e8dd6d38a52592de8b7d82f805e2",
+      "src_sha256": "e93f70926aff971b71b7dd6cc57370754f79572186ce198df8e7023d520e79a9",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Grothendieck-Defect/paper.pdf.ots",
+      "source_file": "./Muons/Grothendieck-Defect/paper.pdf",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "6ccf11fc011cf32b089ea2f80d6342d8e783bd737e1d180456440258f0b25167",
+      "src_sha256": "821d860519f712fda4842e2863493c45708881ec8061bddaadb380819e4b6990",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.pdf'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "45a1be29df20af99fb4093ec6f4b8c979b96a8d476252c11194efc2553fd3e36",
+      "src_sha256": "a1712f5d75bcf1ec35b11e38f7e0ef4d12debe86b2d99f3b47e1579e412b670d",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/Verify.lean.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/Verify.lean",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "69a863d3feb523b8e9f49561d673ed82d41da9f5227ac9d1a09657c36537042d",
+      "src_sha256": "ddfe0aecca690fae5a71e93820d8a19c33218e627a225d537e51948da9b28332",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/Verify.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "8e2ddc138b8da547626255225ae07bbf4281c7571913f0f1f51a5a7d91a3e8c0",
+      "src_sha256": "454f6d6be22e12ec0d9e4fdfff8c82cffde424a0aec9a2f79bcc37c47ae93262",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "14edb11dea74ed552dd00eaf90b9c39b25d11fba49dd62caf14cf3b007b52aa4",
+      "src_sha256": "dc368869991d6861efcbce008602905aebeda230e084b62fb59746c69735469a",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "5fdbb2749c6ebfd3585b161b5033ebee4a9563badde028e6f47ef11c2ef1d771",
+      "src_sha256": "b8f97eb425b2556676307f5ea22ed199d510ba082e5eb3afa02e0ce2954eaab5",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean",
+      "source_exists": true,
+      "ots_size": 945,
+      "ots_sha256": "763e62c02f58c0391d7a6a362d75abd2e597473446969898e7ee148d67827277",
+      "src_sha256": "716045cc75fc3ea6e2e9a6d765f8853763f1ff38263ffa8fb4eba51518f97d63",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl",
+      "source_exists": true,
+      "ots_size": 875,
+      "ots_sha256": "3b1adaca1c0738b45e12e0773d6a16bfc1e837004844690883e8f43549e2c628",
+      "src_sha256": "ef852516b73541781feb4c71b27e95fec8ef5e389c89d8785f778a74ac786f9d",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md",
+      "source_exists": true,
+      "ots_size": 875,
+      "ots_sha256": "a88fececdddb63c8cbf3d4c986590bf48eb7a067902c8de70f9cf46033069ade",
+      "src_sha256": "f8b4d0653c49b38e319230652db8e58e601e5e0fe2010a0b1e768ec4b92b377b",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md",
+      "source_exists": true,
+      "ots_size": 875,
+      "ots_sha256": "3fe80802bc60fa9a904ea8d544309df2e905662ea948b97f47488511d3265b61",
+      "src_sha256": "b34b073b234c66da924a0f8bba216fe8b8592af782c8c2d2baaa10f9b029b9bd",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md",
+      "source_exists": true,
+      "ots_size": 875,
+      "ots_sha256": "bd544b5e0452e46404cc0f13d598ecb8546184625c427bc68af14ec300918257",
+      "src_sha256": "b81737f0c71e8058387bc3e41a815db99b99b58825de21705012bdffd9648dd7",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json",
+      "source_exists": true,
+      "ots_size": 630,
+      "ots_sha256": "c8262c6ba24a76ecc6589ce9d3d9780c19706be315575707693851ff0e86b24b",
+      "src_sha256": "6ad7a77e6a5685e96b2234eb783364fbac9f2d9ec82fdb7fcfd9c3e7583fba2f",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/Gödel-Bell_equivalence/run.json.ots",
+      "source_file": "./Muons/Gödel-Bell_equivalence/run.json",
+      "source_exists": true,
+      "ots_size": 630,
+      "ots_sha256": "905767377f0707ea4312355cf9ebb1de57b0f3f0bb550a404867abd82b8dbf90",
+      "src_sha256": "d027008d8ed24935e3283a4b27f22b00c7e0db2b96aacff3de111d0767bd1fe5",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/run.json'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain"
+    },
+    {
+      "ots_file": "./Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf.ots",
+      "source_file": "./Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf",
+      "source_exists": true,
+      "ots_size": 4987,
+      "ots_sha256": "b76695ad87eec7b4bb346ac1ef4f88429f0c77fbb6379ed42572dde92cf51e9e",
+      "src_sha256": "3dba135a902d05285f01eea2c7789ed5d843d0ab19aff4e6ad29d20ffd18cf4d",
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf'\nFile does not match original!"
+    },
+    {
+      "ots_file": "./Muons/RH=Riemann_Hypothesis/wolfram_verification.wl.ots",
+      "source_file": "./Muons/RH=Riemann_Hypothesis/wolfram_verification.wl",
+      "source_exists": true,
+      "ots_size": 595,
+      "ots_sha256": "60ad4d5187ac10c0f568deea5db91946fb958d2d4533df8e4422c228cff98efa",
+      "src_sha256": "ffc89d9e53cc019b2c86e02abf4e2fe34bff4467381dc9e229c8c5c9832a06db",
+      "status": "pending_bitcoin_confirmation",
+      "verify_output": "Assuming target filename is './Muons/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain"
+    }
+  ]
+}
