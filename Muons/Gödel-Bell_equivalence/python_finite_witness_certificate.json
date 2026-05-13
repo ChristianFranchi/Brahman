@@ -1,0 +1,64 @@
+{
+  "1_heyting_axioms": {
+    "H2_Bool2": true,
+    "H3_chain3": true,
+    "H4_Bool4": true,
+    "H5_chain5": true,
+    "Hsp_5_nonBool": true
+  },
+  "2_lemma_3_1_no_fp": {
+    "H2_Bool2": {
+      "nontriv": true,
+      "neg_fps": [],
+      "lemma_holds": true
+    },
+    "H3_chain3": {
+      "nontriv": true,
+      "neg_fps": [],
+      "lemma_holds": true
+    },
+    "H4_Bool4": {
+      "nontriv": true,
+      "neg_fps": [],
+      "lemma_holds": true
+    },
+    "H5_chain5": {
+      "nontriv": true,
+      "neg_fps": [],
+      "lemma_holds": true
+    },
+    "Hsp_5_nonBool": {
+      "nontriv": true,
+      "neg_fps": [],
+      "lemma_holds": true
+    }
+  },
+  "3_lawvere_wps_size": {
+    "X_size": 2,
+    "H_size": 3,
+    "fn_space_size": 9,
+    "wps_pigeonhole_violated": true,
+    "thus_no_WPS_exists": true
+  },
+  "3_exhaustive_wps_count": {
+    "total_phi": 81,
+    "wps_count": 0,
+    "theorem_A_holds": true
+  },
+  "4_lemma_3_3_bridge": {
+    "total_predicates": 27,
+    "iff_holds": true,
+    "joint_PC_and_WPS_count": 0
+  },
+  "5_section_10_isomorphism": {
+    "thm_bijection_8_to_8": true,
+    "phi_coupling_under_renaming": true,
+    "structural_iso_verified": true
+  },
+  "_meta": {
+    "timestamp_utc": "2026-05-13T10:25:48.531461+00:00",
+    "elapsed_ms": 14,
+    "verifier": "pure-Python finite-witness, no external dependency",
+    "all_checks_pass": true
+  }
+}
