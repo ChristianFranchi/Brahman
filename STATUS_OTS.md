@@ -1,6 +1,6 @@
 # 🛡️ OTS Bitcoin Protection — Status Report
 
-**Generated:** 2026-05-13T23:40:11Z (UTC) — auto-updated every 6h by `.github/workflows/ots-protect.yml`
+**Generated:** 2026-05-14T04:14:10Z (UTC) — auto-updated every 6h by `.github/workflows/ots-protect.yml`
 
 ---
 
@@ -9,13 +9,12 @@
 | Status | Count |
 |--------|------:|
 | ✅ Bitcoin-anchored          |    0 |
-| ⏳ Pending block confirmation |   23 |
+| ⏳ Pending block confirmation |    0 |
 | 📨 Calendar receipt only      |    0 |
-| ⚠️ Verify failed              |    3 |
+| ⚠️ Verify failed              |   26 |
 | 🗑️ Orphan (source deleted)    |    1 |
 | **Total .ots files**         | **  27** |
 
-> **Some .ots files await Bitcoin block confirmation.** This is normal for stamps created within the last 1–6 hours. The next scheduled run will retry the upgrade.
 
 ---
 
@@ -23,32 +22,32 @@
 
 | Status | File | Source SHA-256 | OTS Size | Bitcoin Block | Bitcoin Time (UTC) |
 |:------:|:-----|:---------------|---------:|--------------:|:--------------------|
-| ⏳ Pending confirmation | `Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean` | `bbc597708acd…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl` | `014c43dd07a3…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Electrons/Majorana/majorana_v6.1-FINAL.pdf` | `94f539c49b4e…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Mathematics/Grothendieck-Defect/paper.md` | `e93f70926aff…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Mathematics/Grothendieck-Defect/paper.pdf` | `821d860519f7…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…uivalence/certificate | Bell-Godel Lean4 verification.lean` | `454f6d6be22e…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…uivalence/certificate | Bell-Godel Wolfram verification.wl` | `dc368869991d…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl` | `ffc89d9e53cc…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Muons/Grothendieck-Defect/paper.md` | `e93f70926aff…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Muons/Grothendieck-Defect/paper.pdf` | `821d860519f7…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json` | `a1712f5d75bc…` | 945 B | — | — |
-| ⏳ Pending confirmation | `Muons/Gödel-Bell_equivalence/Verify.lean` | `ddfe0aecca69…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…uivalence/certificate | Bell-Godel Lean4 verification.lean` | `454f6d6be22e…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…uivalence/certificate | Bell-Godel Wolfram verification.wl` | `dc368869991d…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…uivalence/certificate | ConjD Lean4 atomic resolution.lean` | `b8f97eb425b2…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…uivalence/certificate | ConjE Lean4 atomic resolution.lean` | `716045cc75fc…` | 945 B | — | — |
-| ⏳ Pending confirmation | `…quivalence/certificate | Section 10 Wolfram Mathematica.wl` | `ef852516b735…` | 875 B | — | — |
-| ⏳ Pending confirmation | `…l_equivalence/literature | ConjD deep search compendium.md` | `f8b4d0653c49…` | 875 B | — | — |
-| ⏳ Pending confirmation | `…l_equivalence/literature | ConjE deep search compendium.md` | `b34b073b234c…` | 875 B | — | — |
-| ⏳ Pending confirmation | `Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md` | `b81737f0c71e…` | 875 B | — | — |
-| ⏳ Pending confirmation | `…el-Bell_equivalence/python_finite_witness_certificate.json` | `6ad7a77e6a56…` | 630 B | — | — |
-| ⏳ Pending confirmation | `Muons/Gödel-Bell_equivalence/run.json` | `d027008d8ed2…` | 630 B | — | — |
-| ⏳ Pending confirmation | `Muons/RH=Riemann_Hypothesis/wolfram_verification.wl` | `ffc89d9e53cc…` | 595 B | — | — |
+| ⚠️ Verify failed | `Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean` | `bbc597708acd…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl` | `014c43dd07a3…` | 2774 B | — | — |
 | ⚠️ Verify failed | `Electrons/Dark_Energy/v9.1.7.pdf` | `ec269ec88a76…` | 3810 B | — | — |
+| ⚠️ Verify failed | `Electrons/Majorana/majorana_v6.1-FINAL.pdf` | `94f539c49b4e…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Mathematics/Grothendieck-Defect/paper.md` | `e93f70926aff…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Mathematics/Grothendieck-Defect/paper.pdf` | `821d860519f7…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…uivalence/certificate | Bell-Godel Lean4 verification.lean` | `454f6d6be22e…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…uivalence/certificate | Bell-Godel Wolfram verification.wl` | `dc368869991d…` | 2774 B | — | — |
 | ⚠️ Verify failed | `Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf` | `3dba135a902d…` | 4987 B | — | — |
+| ⚠️ Verify failed | `Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl` | `ffc89d9e53cc…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Muons/Grothendieck-Defect/paper.md` | `e93f70926aff…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Muons/Grothendieck-Defect/paper.pdf` | `821d860519f7…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json` | `a1712f5d75bc…` | 2774 B | — | — |
+| ⚠️ Verify failed | `Muons/Gödel-Bell_equivalence/Verify.lean` | `ddfe0aecca69…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…uivalence/certificate | Bell-Godel Lean4 verification.lean` | `454f6d6be22e…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…uivalence/certificate | Bell-Godel Wolfram verification.wl` | `dc368869991d…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…uivalence/certificate | ConjD Lean4 atomic resolution.lean` | `b8f97eb425b2…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…uivalence/certificate | ConjE Lean4 atomic resolution.lean` | `716045cc75fc…` | 2774 B | — | — |
+| ⚠️ Verify failed | `…quivalence/certificate | Section 10 Wolfram Mathematica.wl` | `ef852516b735…` | 2704 B | — | — |
+| ⚠️ Verify failed | `…l_equivalence/literature | ConjD deep search compendium.md` | `f8b4d0653c49…` | 2704 B | — | — |
+| ⚠️ Verify failed | `…l_equivalence/literature | ConjE deep search compendium.md` | `b34b073b234c…` | 2704 B | — | — |
+| ⚠️ Verify failed | `Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md` | `b81737f0c71e…` | 2704 B | — | — |
+| ⚠️ Verify failed | `…el-Bell_equivalence/python_finite_witness_certificate.json` | `6ad7a77e6a56…` | 2459 B | — | — |
+| ⚠️ Verify failed | `Muons/Gödel-Bell_equivalence/run.json` | `d027008d8ed2…` | 2459 B | — | — |
 | ⚠️ Verify failed | `Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf` | `3dba135a902d…` | 4987 B | — | — |
+| ⚠️ Verify failed | `Muons/RH=Riemann_Hypothesis/wolfram_verification.wl` | `ffc89d9e53cc…` | 2424 B | — | — |
 | 🗑️ Orphan (source deleted) | `Electrons/Majorana/majorana_v6_1-FINAL.pdf` | `—` | 3880 B | — | — |
 
 ---

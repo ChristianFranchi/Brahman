@@ -1,31 +1,31 @@
 {
-  "generated_at_utc": "2026-05-13T23:40:11Z",
+  "generated_at_utc": "2026-05-14T04:14:10Z",
   "total_ots_files": 27,
   "bitcoin_verified": 0,
-  "pending_bitcoin_confirmation": 23,
+  "pending_bitcoin_confirmation": 0,
   "calendar_receipt_only": 0,
   "orphan_no_source": 1,
-  "verify_failed": 3,
+  "verify_failed": 26,
   "records": [
     {
       "ots_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean.ots",
       "source_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "23fa9b745b575934003c24cbac3299b5d7370069c16b22f5b0b6c1930d9e5d65",
+      "ots_size": 2774,
+      "ots_sha256": "54d90e6d4dece9f5dcdb387578f45f4c7406ac7cdeac588e81a67bbd535b0657",
       "src_sha256": "bbc597708acd9eceb34ae4f0d4f8412b7daad8d78e7868d34a2c59820efa0527",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl.ots",
       "source_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "cddb9a38196511e7642667a01e9f04c08c9d3dad4214c9a8ecb6f774b148ee8d",
+      "ots_size": 2774,
+      "ots_sha256": "b8428b94e312af8dd870939f72ac49e1fd09b2ac87ce61d5af1c156d450bfb56",
       "src_sha256": "014c43dd07a30c4f49bb6986c187d8124f3b7e1f3096134d96c854775c7866be",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Electrons/Dark_Energy/v9.1.7.pdf.ots",
@@ -41,11 +41,11 @@
       "ots_file": "./Electrons/Majorana/majorana_v6.1-FINAL.pdf.ots",
       "source_file": "./Electrons/Majorana/majorana_v6.1-FINAL.pdf",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "6c2a95b1d3deec71d9e888812be8af629cdff99102fdb45d299fa42f09abd32e",
+      "ots_size": 2774,
+      "ots_sha256": "4bb2668465c8ceda06d3a25080d628c661ff7cdd3b860cf2c378b872619c5215",
       "src_sha256": "94f539c49b4e903573582bb86a2ec11f880e70e4e72ddaa85788967efbe2a310",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Electrons/Majorana/majorana_v6.1-FINAL.pdf'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Electrons/Majorana/majorana_v6.1-FINAL.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Electrons/Majorana/majorana_v6_1-FINAL.pdf.ots",
@@ -61,41 +61,41 @@
       "ots_file": "./Mathematics/Grothendieck-Defect/paper.md.ots",
       "source_file": "./Mathematics/Grothendieck-Defect/paper.md",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "01b7c6f2ac9b66d16f644b03ea7c33f406e06f0710bef97f46da5cb4c1a0e350",
+      "ots_size": 2774,
+      "ots_sha256": "b3d21f1867cf9a1274ffa1b31c5bb7e311b3d767bdf6e0a5922987d937a205fa",
       "src_sha256": "e93f70926aff971b71b7dd6cc57370754f79572186ce198df8e7023d520e79a9",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Mathematics/Grothendieck-Defect/paper.pdf.ots",
       "source_file": "./Mathematics/Grothendieck-Defect/paper.pdf",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "932cb818b4b422d4cec29af55a162bbd2f6cddd659b9efe6c2b35fcb08eaa68c",
+      "ots_size": 2774,
+      "ots_sha256": "1013dd332e9cfb64fc0680357b70d677129065996fb976ef89067a1810fb5589",
       "src_sha256": "821d860519f712fda4842e2863493c45708881ec8061bddaadb380819e4b6990",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.pdf'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean.ots",
       "source_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "61030461de894003d76bd6d8aa8b893d7a1cb2d06fd2bbf63aef5cfbe5b4ce7e",
+      "ots_size": 2774,
+      "ots_sha256": "7a42d16f7c2449554f9bdf0fb103db9c8d48dfb4a5c8d7e0ca7b577b8db17321",
       "src_sha256": "454f6d6be22e12ec0d9e4fdfff8c82cffde424a0aec9a2f79bcc37c47ae93262",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl.ots",
       "source_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "e3c0a6efceda877a7bf338d678b42d9f8850ba69ab7486ec38fd28bf31af11fe",
+      "ots_size": 2774,
+      "ots_sha256": "f427684f9cb97283d796939f30ac07cccbd01ae0931e6ab7f6b405625f92cdb2",
       "src_sha256": "dc368869991d6861efcbce008602905aebeda230e084b62fb59746c69735469a",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf.ots",
@@ -111,151 +111,151 @@
       "ots_file": "./Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl.ots",
       "source_file": "./Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "2aeb67f1b26ad6c3f8f808fed8b86aceb185ceb1668a20b69ab00022897a54b6",
+      "ots_size": 2774,
+      "ots_sha256": "53854ab26de1fa8d4893de3d57a57dd4d7a09bfa8c43d3468b90ebbefd739d98",
       "src_sha256": "ffc89d9e53cc019b2c86e02abf4e2fe34bff4467381dc9e229c8c5c9832a06db",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Grothendieck-Defect/paper.md.ots",
       "source_file": "./Muons/Grothendieck-Defect/paper.md",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "7dae29b1739bcf59b774aec2465f97b410c9e8dd6d38a52592de8b7d82f805e2",
+      "ots_size": 2774,
+      "ots_sha256": "3d1bce81d334fd7422e67fad9a97700144069b243ba512c7173f5061ec8109f2",
       "src_sha256": "e93f70926aff971b71b7dd6cc57370754f79572186ce198df8e7023d520e79a9",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Grothendieck-Defect/paper.pdf.ots",
       "source_file": "./Muons/Grothendieck-Defect/paper.pdf",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "6ccf11fc011cf32b089ea2f80d6342d8e783bd737e1d180456440258f0b25167",
+      "ots_size": 2774,
+      "ots_sha256": "f9efb346b750a478e730a7595f85bc323a6be98c3446825f18fb33e340601add",
       "src_sha256": "821d860519f712fda4842e2863493c45708881ec8061bddaadb380819e4b6990",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.pdf'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "45a1be29df20af99fb4093ec6f4b8c979b96a8d476252c11194efc2553fd3e36",
+      "ots_size": 2774,
+      "ots_sha256": "24fcc48fe5fefef77937fe78baff0ef16156a457dd76492c95ea87670e99d2dd",
       "src_sha256": "a1712f5d75bcf1ec35b11e38f7e0ef4d12debe86b2d99f3b47e1579e412b670d",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/Verify.lean.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/Verify.lean",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "69a863d3feb523b8e9f49561d673ed82d41da9f5227ac9d1a09657c36537042d",
+      "ots_size": 2774,
+      "ots_sha256": "02abc984723c4152151d3a013f747f3fda0026a2591a0304691698335a60040a",
       "src_sha256": "ddfe0aecca690fae5a71e93820d8a19c33218e627a225d537e51948da9b28332",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/Verify.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/Verify.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "8e2ddc138b8da547626255225ae07bbf4281c7571913f0f1f51a5a7d91a3e8c0",
+      "ots_size": 2774,
+      "ots_sha256": "49fec5b734581973f77a84a37c2a58958677acd5bb267abda3a6793d74dfc47b",
       "src_sha256": "454f6d6be22e12ec0d9e4fdfff8c82cffde424a0aec9a2f79bcc37c47ae93262",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "14edb11dea74ed552dd00eaf90b9c39b25d11fba49dd62caf14cf3b007b52aa4",
+      "ots_size": 2774,
+      "ots_sha256": "dc5e517e09ab121f57253d5c8ca958c1623eb3f1ec25d264ac9f67736dcf6b5b",
       "src_sha256": "dc368869991d6861efcbce008602905aebeda230e084b62fb59746c69735469a",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "5fdbb2749c6ebfd3585b161b5033ebee4a9563badde028e6f47ef11c2ef1d771",
+      "ots_size": 2774,
+      "ots_sha256": "84baa4494922af72be87156c88c280ebc34601a85b52d0bac048cb909f61f5ab",
       "src_sha256": "b8f97eb425b2556676307f5ea22ed199d510ba082e5eb3afa02e0ce2954eaab5",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean",
       "source_exists": true,
-      "ots_size": 945,
-      "ots_sha256": "763e62c02f58c0391d7a6a362d75abd2e597473446969898e7ee148d67827277",
+      "ots_size": 2774,
+      "ots_sha256": "1822bcd05017f3d9ea60dc7466eaecd00c583e9f7e96a9ad32766d6f67804d4b",
       "src_sha256": "716045cc75fc3ea6e2e9a6d765f8853763f1ff38263ffa8fb4eba51518f97d63",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl",
       "source_exists": true,
-      "ots_size": 875,
-      "ots_sha256": "3b1adaca1c0738b45e12e0773d6a16bfc1e837004844690883e8f43549e2c628",
+      "ots_size": 2704,
+      "ots_sha256": "655482636a4b1b3849ba79dcecabb0f0fc81596250568db45d1b0eaea140d59c",
       "src_sha256": "ef852516b73541781feb4c71b27e95fec8ef5e389c89d8785f778a74ac786f9d",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md",
       "source_exists": true,
-      "ots_size": 875,
-      "ots_sha256": "a88fececdddb63c8cbf3d4c986590bf48eb7a067902c8de70f9cf46033069ade",
+      "ots_size": 2704,
+      "ots_sha256": "939757b8c8fa0f16e454d43d70e00632cccef2f9f2aa8cdcbd8ee8235ec61f6e",
       "src_sha256": "f8b4d0653c49b38e319230652db8e58e601e5e0fe2010a0b1e768ec4b92b377b",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md",
       "source_exists": true,
-      "ots_size": 875,
-      "ots_sha256": "3fe80802bc60fa9a904ea8d544309df2e905662ea948b97f47488511d3265b61",
+      "ots_size": 2704,
+      "ots_sha256": "ebcaae842636b8fa881d303945d511d489759ceb7f9a0f4c3a6ed328305fc595",
       "src_sha256": "b34b073b234c66da924a0f8bba216fe8b8592af782c8c2d2baaa10f9b029b9bd",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md",
       "source_exists": true,
-      "ots_size": 875,
-      "ots_sha256": "bd544b5e0452e46404cc0f13d598ecb8546184625c427bc68af14ec300918257",
+      "ots_size": 2704,
+      "ots_sha256": "a01543d32addf42c593dadbcff3be8595d8b9b4734b0eb315030f5ce692c8112",
       "src_sha256": "b81737f0c71e8058387bc3e41a815db99b99b58825de21705012bdffd9648dd7",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json",
       "source_exists": true,
-      "ots_size": 630,
-      "ots_sha256": "c8262c6ba24a76ecc6589ce9d3d9780c19706be315575707693851ff0e86b24b",
+      "ots_size": 2459,
+      "ots_sha256": "0574b7541c3043802f1874608edeec856b1e55dff1de4f6d9c1fc43c247fb3ce",
       "src_sha256": "6ad7a77e6a5685e96b2234eb783364fbac9f2d9ec82fdb7fcfd9c3e7583fba2f",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/run.json.ots",
       "source_file": "./Muons/Gödel-Bell_equivalence/run.json",
       "source_exists": true,
-      "ots_size": 630,
-      "ots_sha256": "905767377f0707ea4312355cf9ebb1de57b0f3f0bb550a404867abd82b8dbf90",
+      "ots_size": 2459,
+      "ots_sha256": "20ba9554383af2a2ace7c9b38a3d6d2b6d5557bd63bcee4f9ebe24ebacc58238",
       "src_sha256": "d027008d8ed24935e3283a4b27f22b00c7e0db2b96aacff3de111d0767bd1fe5",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/run.json'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/run.json'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     },
     {
       "ots_file": "./Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf.ots",
@@ -271,11 +271,11 @@
       "ots_file": "./Muons/RH=Riemann_Hypothesis/wolfram_verification.wl.ots",
       "source_file": "./Muons/RH=Riemann_Hypothesis/wolfram_verification.wl",
       "source_exists": true,
-      "ots_size": 595,
-      "ots_sha256": "60ad4d5187ac10c0f568deea5db91946fb958d2d4533df8e4422c228cff98efa",
+      "ots_size": 2424,
+      "ots_sha256": "f73eb7321b7cdbbe9375c9ed2ee437b04dd017784217cb092e96f98afbc700e8",
       "src_sha256": "ffc89d9e53cc019b2c86e02abf4e2fe34bff4467381dc9e229c8c5c9832a06db",
-      "status": "pending_bitcoin_confirmation",
-      "verify_output": "Assuming target filename is './Muons/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCalendar https://btc.calendar.catallaxy.com: Pending confirmation in Bitcoin blockchain\nCalendar https://bob.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://alice.btc.calendar.opentimestamps.org: Pending confirmation in Bitcoin blockchain\nCalendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain"
+      "status": "verify_failed",
+      "verify_output": "Assuming target filename is './Muons/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
     }
   ]
 }
