@@ -1,11 +1,12 @@
 {
-  "generated_at_utc": "2026-05-14T04:14:10Z",
-  "total_ots_files": 27,
-  "bitcoin_verified": 0,
+  "generated_at_utc": "2026-05-14T08:34:56Z",
+  "classifier_version": "v2_ots_info_parse",
+  "total_ots_files": 26,
+  "bitcoin_verified": 26,
+  "bitcoin_attestation_orphan": 0,
   "pending_bitcoin_confirmation": 0,
-  "calendar_receipt_only": 0,
-  "orphan_no_source": 1,
-  "verify_failed": 26,
+  "orphan_no_source": 0,
+  "unknown_format": 0,
   "records": [
     {
       "ots_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean.ots",
@@ -14,8 +15,16 @@
       "ots_size": 2774,
       "ots_sha256": "54d90e6d4dece9f5dcdb387578f45f4c7406ac7cdeac588e81a67bbd535b0657",
       "src_sha256": "bbc597708acd9eceb34ae4f0d4f8412b7daad8d78e7868d34a2c59820efa0527",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Cert.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl.ots",
@@ -24,8 +33,16 @@
       "ots_size": 2774,
       "ots_sha256": "b8428b94e312af8dd870939f72ac49e1fd09b2ac87ce61d5af1c156d450bfb56",
       "src_sha256": "014c43dd07a30c4f49bb6986c187d8124f3b7e1f3096134d96c854775c7866be",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/DarkEnergy_v916_Numerical.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Electrons/Dark_Energy/v9.1.7.pdf.ots",
@@ -34,28 +51,34 @@
       "ots_size": 3810,
       "ots_sha256": "5554cde3fcc151849358bf42679e99e8f3db07cf5e26c128db7ca29d1ee7e6bf",
       "src_sha256": "ec269ec88a761b2a916a0f4bdd5730c89e24acf0aa490386ea4e23072760b1dd",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Electrons/Dark_Energy/v9.1.7.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 948703,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://btc.calendar.catallaxy.com",
+        "https://finney.calendar.eternitywall.com",
+        "https://alice.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 261
     },
     {
       "ots_file": "./Electrons/Majorana/majorana_v6.1-FINAL.pdf.ots",
       "source_file": "./Electrons/Majorana/majorana_v6.1-FINAL.pdf",
       "source_exists": true,
-      "ots_size": 2774,
-      "ots_sha256": "4bb2668465c8ceda06d3a25080d628c661ff7cdd3b860cf2c378b872619c5215",
-      "src_sha256": "94f539c49b4e903573582bb86a2ec11f880e70e4e72ddaa85788967efbe2a310",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Electrons/Majorana/majorana_v6.1-FINAL.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
-    },
-    {
-      "ots_file": "./Electrons/Majorana/majorana_v6_1-FINAL.pdf.ots",
-      "source_file": "./Electrons/Majorana/majorana_v6_1-FINAL.pdf",
-      "source_exists": false,
       "ots_size": 3880,
       "ots_sha256": "62b38c62aeab7a679f69ad70a37844a2de8a151ab5178c456be6adb85e6811e0",
-      "src_sha256": null,
-      "status": "orphan_no_source",
-      "verify_output": ""
+      "src_sha256": "94f539c49b4e903573582bb86a2ec11f880e70e4e72ddaa85788967efbe2a310",
+      "status": "bitcoin_verified",
+      "bitcoin_block": 945793,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://btc.calendar.catallaxy.com"
+      ],
+      "info_lines": 265
     },
     {
       "ots_file": "./Mathematics/Grothendieck-Defect/paper.md.ots",
@@ -64,8 +87,16 @@
       "ots_size": 2774,
       "ots_sha256": "b3d21f1867cf9a1274ffa1b31c5bb7e311b3d767bdf6e0a5922987d937a205fa",
       "src_sha256": "e93f70926aff971b71b7dd6cc57370754f79572186ce198df8e7023d520e79a9",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Mathematics/Grothendieck-Defect/paper.pdf.ots",
@@ -74,8 +105,16 @@
       "ots_size": 2774,
       "ots_sha256": "1013dd332e9cfb64fc0680357b70d677129065996fb976ef89067a1810fb5589",
       "src_sha256": "821d860519f712fda4842e2863493c45708881ec8061bddaadb380819e4b6990",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Mathematics/Grothendieck-Defect/paper.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean.ots",
@@ -84,8 +123,16 @@
       "ots_size": 2774,
       "ots_sha256": "7a42d16f7c2449554f9bdf0fb103db9c8d48dfb4a5c8d7e0ca7b577b8db17321",
       "src_sha256": "454f6d6be22e12ec0d9e4fdfff8c82cffde424a0aec9a2f79bcc37c47ae93262",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl.ots",
@@ -94,8 +141,16 @@
       "ots_size": 2774,
       "ots_sha256": "f427684f9cb97283d796939f30ac07cccbd01ae0931e6ab7f6b405625f92cdb2",
       "src_sha256": "dc368869991d6861efcbce008602905aebeda230e084b62fb59746c69735469a",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Mathematics/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf.ots",
@@ -104,8 +159,16 @@
       "ots_size": 4987,
       "ots_sha256": "b76695ad87eec7b4bb346ac1ef4f88429f0c77fbb6379ed42572dde92cf51e9e",
       "src_sha256": "3dba135a902d05285f01eea2c7789ed5d843d0ab19aff4e6ad29d20ffd18cf4d",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Mathematics/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf'\nFile does not match original!"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 944805,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://btc.calendar.catallaxy.com",
+        "https://finney.calendar.eternitywall.com",
+        "https://alice.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 342
     },
     {
       "ots_file": "./Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl.ots",
@@ -114,8 +177,16 @@
       "ots_size": 2774,
       "ots_sha256": "53854ab26de1fa8d4893de3d57a57dd4d7a09bfa8c43d3468b90ebbefd739d98",
       "src_sha256": "ffc89d9e53cc019b2c86e02abf4e2fe34bff4467381dc9e229c8c5c9832a06db",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Mathematics/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Grothendieck-Defect/paper.md.ots",
@@ -124,8 +195,16 @@
       "ots_size": 2774,
       "ots_sha256": "3d1bce81d334fd7422e67fad9a97700144069b243ba512c7173f5061ec8109f2",
       "src_sha256": "e93f70926aff971b71b7dd6cc57370754f79572186ce198df8e7023d520e79a9",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Grothendieck-Defect/paper.pdf.ots",
@@ -134,8 +213,16 @@
       "ots_size": 2774,
       "ots_sha256": "f9efb346b750a478e730a7595f85bc323a6be98c3446825f18fb33e340601add",
       "src_sha256": "821d860519f712fda4842e2863493c45708881ec8061bddaadb380819e4b6990",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Grothendieck-Defect/paper.pdf'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json.ots",
@@ -144,8 +231,16 @@
       "ots_size": 2774,
       "ots_sha256": "24fcc48fe5fefef77937fe78baff0ef16156a457dd76492c95ea87670e99d2dd",
       "src_sha256": "a1712f5d75bcf1ec35b11e38f7e0ef4d12debe86b2d99f3b47e1579e412b670d",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/MASTER_CERTIFICATE.json'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/Verify.lean.ots",
@@ -154,8 +249,16 @@
       "ots_size": 2774,
       "ots_sha256": "02abc984723c4152151d3a013f747f3fda0026a2591a0304691698335a60040a",
       "src_sha256": "ddfe0aecca690fae5a71e93820d8a19c33218e627a225d537e51948da9b28332",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/Verify.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean.ots",
@@ -164,8 +267,16 @@
       "ots_size": 2774,
       "ots_sha256": "49fec5b734581973f77a84a37c2a58958677acd5bb267abda3a6793d74dfc47b",
       "src_sha256": "454f6d6be22e12ec0d9e4fdfff8c82cffde424a0aec9a2f79bcc37c47ae93262",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Lean4 verification.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl.ots",
@@ -174,8 +285,16 @@
       "ots_size": 2774,
       "ots_sha256": "dc5e517e09ab121f57253d5c8ca958c1623eb3f1ec25d264ac9f67736dcf6b5b",
       "src_sha256": "dc368869991d6861efcbce008602905aebeda230e084b62fb59746c69735469a",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Bell-Godel Wolfram verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean.ots",
@@ -184,8 +303,16 @@
       "ots_size": 2774,
       "ots_sha256": "84baa4494922af72be87156c88c280ebc34601a85b52d0bac048cb909f61f5ab",
       "src_sha256": "b8f97eb425b2556676307f5ea22ed199d510ba082e5eb3afa02e0ce2954eaab5",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjD Lean4 atomic resolution.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean.ots",
@@ -194,8 +321,16 @@
       "ots_size": 2774,
       "ots_sha256": "1822bcd05017f3d9ea60dc7466eaecd00c583e9f7e96a9ad32766d6f67804d4b",
       "src_sha256": "716045cc75fc3ea6e2e9a6d765f8853763f1ff38263ffa8fb4eba51518f97d63",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | ConjE Lean4 atomic resolution.lean'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 189
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl.ots",
@@ -204,8 +339,16 @@
       "ots_size": 2704,
       "ots_sha256": "655482636a4b1b3849ba79dcecabb0f0fc81596250568db45d1b0eaea140d59c",
       "src_sha256": "ef852516b73541781feb4c71b27e95fec8ef5e389c89d8785f778a74ac786f9d",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/certificate | Section 10 Wolfram Mathematica.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 185
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md.ots",
@@ -214,8 +357,16 @@
       "ots_size": 2704,
       "ots_sha256": "939757b8c8fa0f16e454d43d70e00632cccef2f9f2aa8cdcbd8ee8235ec61f6e",
       "src_sha256": "f8b4d0653c49b38e319230652db8e58e601e5e0fe2010a0b1e768ec4b92b377b",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjD deep search compendium.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 185
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md.ots",
@@ -224,8 +375,16 @@
       "ots_size": 2704,
       "ots_sha256": "ebcaae842636b8fa881d303945d511d489759ceb7f9a0f4c3a6ed328305fc595",
       "src_sha256": "b34b073b234c66da924a0f8bba216fe8b8592af782c8c2d2baaa10f9b029b9bd",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/literature | ConjE deep search compendium.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 185
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md.ots",
@@ -234,8 +393,16 @@
       "ots_size": 2704,
       "ots_sha256": "a01543d32addf42c593dadbcff3be8595d8b9b4734b0eb315030f5ce692c8112",
       "src_sha256": "b81737f0c71e8058387bc3e41a815db99b99b58825de21705012bdffd9648dd7",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/paper | Godel Bell KS v5.3.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949283,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com",
+        "https://bob.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 185
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json.ots",
@@ -244,8 +411,16 @@
       "ots_size": 2459,
       "ots_sha256": "0574b7541c3043802f1874608edeec856b1e55dff1de4f6d9c1fc43c247fb3ce",
       "src_sha256": "6ad7a77e6a5685e96b2234eb783364fbac9f2d9ec82fdb7fcfd9c3e7583fba2f",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/python_finite_witness_certificate.json'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949282,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com"
+      ],
+      "info_lines": 171
     },
     {
       "ots_file": "./Muons/Gödel-Bell_equivalence/run.json.ots",
@@ -254,8 +429,16 @@
       "ots_size": 2459,
       "ots_sha256": "20ba9554383af2a2ace7c9b38a3d6d2b6d5557bd63bcee4f9ebe24ebacc58238",
       "src_sha256": "d027008d8ed24935e3283a4b27f22b00c7e0db2b96aacff3de111d0767bd1fe5",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/Gödel-Bell_equivalence/run.json'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949282,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com"
+      ],
+      "info_lines": 171
     },
     {
       "ots_file": "./Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf.ots",
@@ -264,8 +447,16 @@
       "ots_size": 4987,
       "ots_sha256": "b76695ad87eec7b4bb346ac1ef4f88429f0c77fbb6379ed42572dde92cf51e9e",
       "src_sha256": "3dba135a902d05285f01eea2c7789ed5d843d0ab19aff4e6ad29d20ffd18cf4d",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/RH=Riemann_Hypothesis/169_HR_RH_v6.5.pdf'\nFile does not match original!"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 944805,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://btc.calendar.catallaxy.com",
+        "https://finney.calendar.eternitywall.com",
+        "https://alice.btc.calendar.opentimestamps.org"
+      ],
+      "info_lines": 342
     },
     {
       "ots_file": "./Muons/RH=Riemann_Hypothesis/wolfram_verification.wl.ots",
@@ -274,8 +465,16 @@
       "ots_size": 2424,
       "ots_sha256": "f73eb7321b7cdbbe9375c9ed2ee437b04dd017784217cb092e96f98afbc700e8",
       "src_sha256": "ffc89d9e53cc019b2c86e02abf4e2fe34bff4467381dc9e229c8c5c9832a06db",
-      "status": "verify_failed",
-      "verify_output": "Assuming target filename is './Muons/RH=Riemann_Hypothesis/wolfram_verification.wl'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/runner/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/runner/.bitcoin/bitcoin.conf'"
+      "status": "bitcoin_verified",
+      "bitcoin_block": 949282,
+      "bitcoin_datetime": null,
+      "calendars": [
+        "https://btc.calendar.catallaxy.com",
+        "https://bob.btc.calendar.opentimestamps.org",
+        "https://alice.btc.calendar.opentimestamps.org",
+        "https://finney.calendar.eternitywall.com"
+      ],
+      "info_lines": 169
     }
   ]
 }
