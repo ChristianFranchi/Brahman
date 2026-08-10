@@ -1,6 +1,6 @@
 # 🛡️ OTS Bitcoin Protection — Status Report
 
-**Generated:** 2026-08-09T19:02:31Z (UTC) — auto-updated every 6h by `.github/workflows/ots-protect.yml`
+**Generated:** 2026-08-10T02:35:24Z (UTC) — auto-updated every 6h by `.github/workflows/ots-protect.yml`
 **Classifier:** `v2_ots_info_parse` — deterministic parse of `ots info` output
 
 ---
